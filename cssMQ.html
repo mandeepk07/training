@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssMQ</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        .main{
+            width: 100vw;
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .text{
+            height: 100%;
+            width: 50%;
+border: 1px solid grey;
+        }
+
+        .text p{
+            font-size: 30px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .img{
+            height: 100%;
+            width: 50%;
+            border: 1px solid grey;
+        }
+        .img img{
+            height: 450px;
+            width: 800px;
+            padding: 20px;
+            
+        }
+
+        @media screen and (max-width: 780px){
+            .text p{
+                font-size: 15px;
+            }
+
+            .img img{
+                width: 100%;
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+<div class="text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae quod, ullam exercitationem distinctio alias provident, maiores sit a suscipit quia nulla at corporis amet, accusantium repellendus. Incidunt harum unde facilis reprehenderit repudiandae fugiat officia pariatur, quasi quia eius similique libero quos sed natus possimus obcaecati ipsam magnam sequi, illum aliquam iste enim maxime facere? Autem tempora delectus alias officiis eveniet, ipsum odit inventore obcaecati impedit cum facilis eligendi molestiae hic perspiciatis. Dolorum corrupti praesentium magni laborum est voluptatibus provident quaerat modi inventore aperiam iure soluta reprehenderit dolore, tempore possimus accusamus fugiat, in nesciunt molestiae dolores repellat voluptate consequatur magnam!</p>
+</div>
+<div class="img">
+    <img src="images/nature.jpg" alt="nature">
+</div>
+
+    </div>
+</body>
+</html>
